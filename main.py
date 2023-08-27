@@ -1,5 +1,8 @@
-user_text = input("Enter a todo: ")
+user_prompt: str = "Enter a todo: "
 
-print(user_text)
+todos: list = []
 
-print(type(user_text))
+while True:
+    todo = input(user_prompt)
+    todos.append(todo)
+    print(f"Added {todo}. List has {len(todos)} items.")
