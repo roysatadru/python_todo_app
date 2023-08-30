@@ -5,4 +5,3 @@ while password != "opensesame":
     password = input("Enter your password: ")
 
 print("Welcome to secret town!")
-
